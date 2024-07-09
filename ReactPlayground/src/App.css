@@ -1,0 +1,225 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+.show-counter .countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.25rem;
+  padding: 0 0.75rem;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.timer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  background-color: #646cff;
+}
+
+.timer-button:hover {
+  opacity: 0.9;
+  background-color: #535bf2;
+}
+
+.timeAdjustHours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pomodoro-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.timer-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.timer-label {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  width: 100%;
+  max-width: 300px;
+}
+
+.timer-button {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  background-color: #646cff;
+}
+
+.timer-button:hover {
+  opacity: 0.9;
+  background-color: #535bf2;
+}
+
+.pomodoro-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #242424;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.timer-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.timer-unit input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 3rem;
+  width: 70px;
+  text-align: center;
+}
+
+.timer-unit input::-webkit-inner-spin-button, 
+.timer-unit input::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.timer-label {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.timer-separator {
+  font-size: 3rem;
+  margin: 0 5px;
+}
+
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.timer-button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.timer-button:hover {
+  background-color: #535bf2;
+}

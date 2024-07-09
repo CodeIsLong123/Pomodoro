@@ -1,0 +1,30 @@
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+
+.pomText {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
